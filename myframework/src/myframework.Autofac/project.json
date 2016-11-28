@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0-*",
+	"description": "Autofac DI for myframework",
+  "dependencies": {
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc3-309",
+    "myframework.Core": "0.2.0-*"
+  },
+	"frameworks": {
+    "netstandard1.6": {
+      "NETStandard.Library": "1.6.1"
+    }
+	}
+}

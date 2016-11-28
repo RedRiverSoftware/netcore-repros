@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0-*",
+  "description": "Entity Framework for myframework",
+
+  "dependencies": {
+    "myframework.Core": "0.2.0-*",
+    "Microsoft.EntityFrameworkCore": "1.2.0-preview1-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.1"
+      }
+    }
+  }
+}
+

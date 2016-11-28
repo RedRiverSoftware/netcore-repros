@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0-*",
+  "description": "Entity Framework for myframework - tooling support",
+
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "myframework.Core": "0.2.0-*",
+    "myframework.EntityFramework": "0.2.0-*",
+    "Microsoft.EntityFrameworkCore": "1.2.0-preview1-*",
+    "Microsoft.EntityFrameworkCore.Design": {
+      "type": "build",
+      "version": "1.2.0-preview1-*"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.1.0",
+          "type": "platform"
+        }    
+      }
+    }
+  }
+}

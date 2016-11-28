@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0-*",
+	"description": "Core Azure tech implementations for myframework",
+  "dependencies": {
+  },
+	"frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.1"
+      }
+    },
+    "net451": {
+    } 
+	}
+}

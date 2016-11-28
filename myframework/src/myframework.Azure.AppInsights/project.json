@@ -1,0 +1,15 @@
+﻿{
+	"version": "0.2.0-*",
+	"description": "Azure App Insights implementations for myframework",
+  "dependencies": {
+    "myframework.Core": "0.2.0-*",
+    "myframework.AzureCore": "0.2.0-*",
+    "Microsoft.Extensions.Options": "1.1.0",
+    "Microsoft.ApplicationInsights.AspNetCore": "1.0.1"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  }
+}

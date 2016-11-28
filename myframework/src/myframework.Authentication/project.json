@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.2.0-*",
+  "description": "Authentication for myframework",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer": "1.1.0",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "Microsoft.Extensions.Options": "1.1.0",
+    "Newtonsoft.Json": "9.0.1",
+    "myframework.Core": "0.2.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies":{
+        "NETStandard.Library": "1.6.1"
+      }
+    }
+  }
+}
